@@ -30,5 +30,5 @@ spec:
     kind: Deployment
     jqPathExpressions:
       - >-
-        .annotations.creation
+        .metadata.annotations.creation
     
